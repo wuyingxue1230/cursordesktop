@@ -1,0 +1,40 @@
+{
+  "name": "cursordesktop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "electron": "electron .",
+    "electron-dev": "electron ."
+  },
+  "dependencies": {
+    "next": "15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "electron": "^35.0.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "description": "Electron桌面应用程序",
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuyingxue1230/cursordesktop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuyingxue1230/cursordesktop/issues"
+  },
+  "homepage": "https://github.com/wuyingxue1230/cursordesktop#readme"
+}
